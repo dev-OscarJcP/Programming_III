@@ -35,6 +35,7 @@ public class craps {
             System.out.println("------------------------------");
             System.out.println("\t\tGAMER OVER");
             System.out.println("------------------------------");
+            scanf.close();
             System.exit(0);
         }
         for (int i = 0;i < 4;i++){
@@ -56,6 +57,8 @@ public class craps {
                 System.out.println("------------------------------");
                 System.out.println("\t\tGAMER OVER");
                 System.out.println("------------------------------");
+                scanf.close();
+                System.exit(0);
             }
         }
         System.out.println("------------------------------");
